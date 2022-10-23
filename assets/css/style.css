@@ -757,7 +757,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/compete4-springFest.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -1086,6 +1086,16 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team{
+  height: 700px;
+}
+
+.team img{
+  height: 75%;
+  object-fit: fill;
+  object-position: bottom 90px;
+}
+
 .team .member {
   text-align: center;
   margin-bottom: 20px;
